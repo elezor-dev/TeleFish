@@ -11,7 +11,7 @@ def clear():
 clear()
 en = base64.b64decode('Q29kZWQgYnkgQGxhbWVyMTEyMzEx')
 print(en.decode("UTF-8"))
-print(Fore.GREEN + '''
+print( '''
          .e$$$$e.
        e$$$$$$$$$$e
       $$$$$$by$$$$$$
